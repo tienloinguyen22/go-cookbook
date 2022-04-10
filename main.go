@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"neoflies/go-cookbook/bytestrings"
+	"neoflies/go-cookbook/filesdirs"
 )
 
 func main() {
 	fmt.Printf("Go cookbook\n")
 	// interfaces.RunInterfaces()
-	bytestrings.RunBytestrings()
+	// bytestrings.RunBytestrings()
+	filesdirs.RunFilesdirs()
 }
