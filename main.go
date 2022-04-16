@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"neoflies/go-cookbook/logger"
+	"neoflies/go-cookbook/panic"
 )
 
 func main() {
@@ -13,5 +13,6 @@ func main() {
 	// csvformat.RunCsvformat()
 	// dataconv.RunDataconv()
 	// basicerrors.RunBasicerrors()
-	logger.RunLog()
+	// logger.RunLog()
+	panic.RunPanic()
 }
