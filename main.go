@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"neoflies/go-cookbook/basicerrors"
+	"neoflies/go-cookbook/logger"
 )
 
 func main() {
@@ -12,5 +12,6 @@ func main() {
 	// filesdirs.RunFilesdirs()
 	// csvformat.RunCsvformat()
 	// dataconv.RunDataconv()
-	basicerrors.RunBasicerrors()
+	// basicerrors.RunBasicerrors()
+	logger.RunLog()
 }
